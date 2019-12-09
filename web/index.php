@@ -1,17 +1,23 @@
 <?php
+
 session_start();
 
+require '../vendor/autoload.php';
 require '../database/QueryBuilder.php';
 require '../Components/Auth.php';
+
+
+use Delight\Auth\Auth as au;
 
 $db = new QueryBuilder;
 $auth = new Auth($db);
 
-//var_dump ($_SERVER); die;
+$pdo = new PDO('mysql:dbname=test; host=localhost;', 'admin', 'admin'); 
+
+$au = new au($pdo);
+
 
 //ТУТ ИДЕТ РОУТИНГ!
-
-
 
 $url = $_SERVER['REQUEST_URI']; //aboutme
 if($url == '/my_project/5/web/list') {                   // main
