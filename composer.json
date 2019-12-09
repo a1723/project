@@ -1,0 +1,15 @@
+{
+    "name": "mymym/my_project",
+    "description": "my_first_project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandr Konowawka",
+            "email": "a@a.ru"
+        }
+    ],
+    "require": {
+        "delight-im/auth": "^8.1"
+    }
+}

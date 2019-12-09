@@ -1,0 +1,26 @@
+﻿
+// Auth
+    // register() +
+    // login() +     
+    // logout() +
+    // currentUser() +
+    // check() +
+    //ЗАДАНИЕ 1
+    // ban() +
+    // unban() +
+    // getUserStatus() "admin", "normal" +
+    // isBanned() true (сделал isbanned 0/1 в базе и проверяю при логине) +
+    // isNormal() false (сделал isbanned 0/1 в базе и проверяю при логине) +
+    // remove() +
+    // fullName() + currentUser() почти одно и тоже.
+    // uploadAvatar() - (чёт сложна)))
+
+ot sebya dobavil
+    // is_admin() +
+    // showAllUsers() + 
+
+//ЗАДАНИЕ 2
+// ImageManager
+    // upload($image) //   - (чёт сложна)))
+    // delete($path)    - (чёт сложна)))
+// ...
